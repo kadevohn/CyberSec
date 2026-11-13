@@ -68,7 +68,7 @@ dependencies = [
     # cryptography: provides AES-256-GCM, the actual encryption that
     # scrambles vault contents. Maintained by the Python Cryptographic
     # Authority — the gold-standard library, audited and trusted.
-    "cryptography>=48.0.0",
+    "cryptography>=50.0.2",
 
     # typer: builds nice CLIs from regular Python functions.
     # Lets us write `add`, `get`, `list` commands with auto-generated help.
@@ -87,7 +87,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     # pytest — runs our test suite (the test_*.py files in tests/).
-    "pytest>=9.0.3",
+    "pytest>=9.2.0",
 
     # pytest-cov — measures how much of our code the tests actually
     # exercise. "Coverage" — high coverage means well-tested code.
@@ -102,7 +102,7 @@ dev = [
     "mypy>=2.1.0",
 
     # pylint — second linter that catches deeper logic issues ruff misses.
-    "pylint>=4.0.5",
+    "pylint>=4.0.9",
 
     # yapf — code formatter (Google's). Keeps every file looking identical.
     "yapf>=0.43.0,<1.0.0",
